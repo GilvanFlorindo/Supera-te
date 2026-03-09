@@ -1,0 +1,11 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+<rect width="600" height="400" fill="#EAF2FF"/>
+<circle cx="150" cy="200" r="40" fill="#6C63FF"/>
+<circle cx="300" cy="200" r="40" fill="#6C63FF"/>
+<circle cx="450" cy="200" r="40" fill="#6C63FF"/>
+<text x="150" y="205" text-anchor="middle" fill="#fff" font-size="20">1</text>
+<text x="300" y="205" text-anchor="middle" fill="#fff" font-size="20">2</text>
+<text x="450" y="205" text-anchor="middle" fill="#fff" font-size="20">3</text>
+<text x="300" y="340" font-size="24" text-anchor="middle" fill="#333">Como Funciona</text>
+</svg>

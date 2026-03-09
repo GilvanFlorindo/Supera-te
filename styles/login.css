@@ -1,0 +1,62 @@
+@import url(global.css);
+
+body {
+background-image: url(../assets/bg-login.png);
+background-color: var(--brand-color);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+width: 100%;
+height: 100vh;
+}
+
+.form-box {
+    background-color: #d6d7fb;
+    padding: 1.5rem;
+    border-radius: 1.3rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    label {
+        font: var(--text);
+        color: var(--text-dark);
+    }
+    input {
+        border: none;
+        padding: .5rem;
+        border-radius: .5rem;
+
+        &:focus {
+            outline: solid #595995;
+            border: 1px solid #d6d7fb;
+        }
+    }
+}
+.wrap-col {
+    display: flex; 
+    flex-direction: column;
+    gap: .2rem;
+}
+.sign-up {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    a {
+        /* color: #595995; */
+    }
+}
+
+.sign-btn{
+    margin-top: .5rem;
+    color: var(--text-dark);
+    background-color: #d6d7fb;
+}

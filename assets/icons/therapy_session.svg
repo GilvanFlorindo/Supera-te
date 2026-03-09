@@ -1,0 +1,8 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+<rect width="600" height="400" fill="#EAF2FF"/>
+<circle cx="200" cy="200" r="60" fill="#6C63FF"/>
+<circle cx="400" cy="200" r="60" fill="#4CAF50"/>
+<rect x="240" y="210" width="120" height="10" fill="#333"/>
+<text x="300" y="330" font-size="24" text-anchor="middle" fill="#333">Sessão de Terapia</text>
+</svg>
