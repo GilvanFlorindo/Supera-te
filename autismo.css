@@ -1,0 +1,108 @@
+
+body{
+background-image: url(../pt/ícones/WhatsApp\ Image\ 2026-03-09\ at\ 21.35.27.jpeg);
+font-family: Arial, sans-serif;
+margin:0;
+background:#f6f5ff;
+color:#333;
+}
+
+header{
+background:white;
+padding:20px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+color:#6c63ff;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:40px 20px;
+}
+
+.intro{
+background:white;
+padding:30px;
+border-radius:12px;
+margin-bottom:30px;
+box-shadow:0 10px 20px rgba(0,0,0,0.05);
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+margin-bottom:20px;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+.card h3{
+color:#6c63ff;
+margin-bottom:15px;
+}
+
+label{
+display:block;
+margin:8px 0;
+cursor:pointer;
+}
+
+button{
+background:#6c63ff;
+color:white;
+border:none;
+padding:14px 30px;
+border-radius:8px;
+font-size:16px;
+cursor:pointer;
+margin-top:20px;
+}
+
+button:hover{
+background:#554ee2;
+}
+
+.resultado{
+margin-top:25px;
+padding:20px;
+border-radius:10px;
+display:none;
+font-weight:bold;
+}
+
+.nivel1{
+background:#e8e6ff;
+color:#3d39b3;
+}
+
+.nivel2{
+background:#fff3cd;
+color:#856404;
+}
+
+.nivel3{
+background:#f8d7da;
+color:#721c24;
+}
+
+.erro{
+background:#ffdede;
+color:#8b0000;
+padding:15px;
+border-radius:8px;
+margin-top:15px;
+display:none;
+}
+
+footer{
+text-align:center;
+padding:20px;
+color:#888;
+}

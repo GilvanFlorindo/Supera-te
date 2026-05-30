@@ -17,6 +17,7 @@
     --font-family:  "Poppins", sans-serif;       
   --text: 16px/150% var(--font-family);
   --text-lg: bold 32px/125% var(--font-family);
+  --text-bg: bold 64px/125% var(--font-family);
   --text-md: 14px/170% var(--font-family);
   --text-sd: 12px/170% var(--font-family);
 }
@@ -24,7 +25,10 @@
 body {
   font: var(--text);
   color: var(--text-light);
-  background-color: var(--bg-color);
+background-image: url(../assets/bg-login.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 a {
@@ -36,15 +40,20 @@ a {
   }
 }
 
-h1{
+h1, h2, h3{
   color: #595995;
 }
+
+p {
+  color: var(--text-secondary);
+}
+
 button{
   font: var(--text);
   color: #ffff;
   border: none;
   border-radius: 15px;
-  width: 15rem;
+  width: 8rem;
   padding: .6rem;
   background-color: var(--brand-color);
   transition: all 1s;
@@ -54,3 +63,4 @@ button{
     border: 1px solid var(--brand-color);
   }
 }
+

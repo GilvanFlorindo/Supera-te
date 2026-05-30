@@ -29,7 +29,9 @@
             <label for="">Password</label>
             <input type="password" placeholder="password" name="password" required>
         </div>
-        <button type="submit">Entrar</button>
+        <div class="sign-up">
+            <button id="login" type="submit">Entrar</button>
+        </div>
 
         <div class="sign-up">
             <a href="">Esqueceu a senha?</a>
